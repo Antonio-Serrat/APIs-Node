@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": 1,
+    "title": "ad",
+    "price": "33",
+    "thumbnail": "/home/tonisrt/Documents/Coder/APIs-Node/App/public/img/thumbnail-1644524590874gabo.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "ad",
+    "price": "33",
+    "thumbnail": "/home/tonisrt/Documents/Coder/APIs-Node/App/public/img/thumbnail-1644524602577gabo.jpeg"
+  }
+]
