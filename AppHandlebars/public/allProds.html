@@ -20,9 +20,14 @@
     </body>
     <script type="text/x-handlerbars-template" id="template">
         <div>Productos</div>
-        {{#each products}}
+        {{#each allProducts}}
+            {{#if allProducts.isEmpty}}
+                <p>Aun no se agregaron Productos</p>
+            {{/if}}
             <ul>
                 <li>{{this.title}}</li>
+                <li>{{this.thumbnail}}</li>
+                
             </ul>
         {{/each}}
     </script>

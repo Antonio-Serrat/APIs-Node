@@ -4,7 +4,15 @@ const app = express();
 const PORT = process.env.PORT | 8080
 const productsRouter = require("./routes/products")
 const homeRouter = require('./routes/home');
+const { engine } = require('express-handlebars');
 
+
+app.set('view engine', 'hbs');
+app.engine('hbs', engine({
+  layoutsDir: path.join(__dirname, 'views/layouts'),
+  extname: 'hbs',
+  defaultLayout: 'index'
+}));
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 
