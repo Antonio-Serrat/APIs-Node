@@ -1,0 +1,8 @@
+extends layouts/base.pug 
+block base
+    each product in productos
+        ul 
+            li= product.title 
+            img(src=product.thumbnail , alt="imagen producto")
+    else 
+        li no hay productos
