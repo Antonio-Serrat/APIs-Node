@@ -1,8 +1,15 @@
 extends layouts/base.pug 
 block base
-    each product in productos
-        ul 
-            li= product.title 
-            img(src=product.thumbnail , alt="imagen producto")
-    else 
-        li no hay productos
+    section 
+        div(class="container")
+            div(class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-5 g-3")
+                each product in productos
+                    div(class="col d-flex justify-content-center")
+                        div(class="card ")
+                            img(src=product.thumbnail , alt="imagen producto", class="card-img")
+                            div(class="card-body")
+                                h4(class="card-title")= product.title 
+                                h5(class="card-text")= product.price 
+                else 
+                    div(class="container my=5")
+                        h4 No se encontraron productos disponibles

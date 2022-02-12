@@ -11,5 +11,11 @@ body{
 }
 .nav-link:hover{
     color: rgb(84, 44, 196);
-    
+}
+.card{
+    width: 15rem;
+    margin-top: 5rem;
+    border-radius: 5%;
+    border-width: 0.4rem;
+    border-color: rgb(241, 144, 99);
 }

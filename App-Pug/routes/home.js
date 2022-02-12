@@ -19,12 +19,12 @@ router.get("/productos", async (req, res) => {
 })
 
 router.post("/productos", upload.single("thumbnail"), async (req, res) => {
-    const { title, price } = req.body;
+    const { title, price} = req.body;
     const thumbnail = path.join("static/img/" + req.file.filename)
-    await productModel.save(title, price, thumbnail).then(id =>{return id});
+    await productModel.save(title, price+"$", thumbnail).then(id =>{return id});
     const products = await productModel.getAll();
 
-    res.render("index", { products })
+    res.redirect("/productos")
 })
 
 module.exports = router;
