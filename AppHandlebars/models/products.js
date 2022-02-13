@@ -35,7 +35,6 @@ class Products {
                 const allProducts = JSON.stringify(newProducts, null, 2);
 
                await fsp.writeFile(this.nombreArchivo, allProducts, 'utf-8')
-                    console.log(producto.id)
                     return producto.id;
         } catch (error) {
             return error;

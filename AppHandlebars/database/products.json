@@ -1,14 +1,74 @@
 [
   {
     "id": 1,
-    "title": "ad",
-    "price": "33",
-    "thumbnail": "/home/tonisrt/Documents/Coder/APIs-Node/App/public/img/thumbnail-1644524590874gabo.jpeg"
+    "title": "3",
+    "price": "3$",
+    "thumbnail": "static/img/thumbnail-1644721287605gabo.jpeg"
   },
   {
     "id": 2,
-    "title": "ad",
-    "price": "33",
-    "thumbnail": "/home/tonisrt/Documents/Coder/APIs-Node/App/public/img/thumbnail-1644524602577gabo.jpeg"
+    "title": "34",
+    "price": "3$",
+    "thumbnail": "static/img/thumbnail-1644721333487gabo1.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "index? ",
+    "price": "22$",
+    "thumbnail": "static/img/thumbnail-1644721523182gabo.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "2",
+    "price": "2$",
+    "thumbnail": "static/img/thumbnail-1644721584402gabo.jpeg"
+  },
+  {
+    "id": 5,
+    "title": "f",
+    "price": "4$",
+    "thumbnail": "static/img/thumbnail-1644721647824gabo1.jpeg"
+  },
+  {
+    "id": 6,
+    "title": "k",
+    "price": "9$",
+    "thumbnail": "static/img/thumbnail-1644721720996gabo.jpeg"
+  },
+  {
+    "id": 7,
+    "title": "jas",
+    "price": "2$",
+    "thumbnail": "static/img/thumbnail-1644721793778gabo.jpeg"
+  },
+  {
+    "id": 8,
+    "title": "hola ",
+    "price": "2$",
+    "thumbnail": "static/img/thumbnail-1644721892433gabo1.jpeg"
+  },
+  {
+    "id": 9,
+    "title": "kfsa",
+    "price": "53$",
+    "thumbnail": "static/img/thumbnail-1644721961316gabo1.jpeg"
+  },
+  {
+    "id": 10,
+    "title": "k",
+    "price": "0$",
+    "thumbnail": "static/img/thumbnail-1644722087667gabo.jpeg"
+  },
+  {
+    "id": 11,
+    "title": "kj",
+    "price": "0$",
+    "thumbnail": "static/img/thumbnail-1644722270417gabo.jpeg"
+  },
+  {
+    "id": 12,
+    "title": "nuevo",
+    "price": "50$",
+    "thumbnail": "static/img/thumbnail-1644722332729gabo.jpeg"
   }
 ]
