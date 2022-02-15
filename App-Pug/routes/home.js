@@ -24,7 +24,7 @@ router.post("/productos", upload.single("thumbnail"), async (req, res) => {
     await productModel.save(title, price+"$", thumbnail).then(id =>{return id});
     const products = await productModel.getAll();
 
-    res.redirect("/productos")
+    res.redirect("/")
 })
 
 module.exports = router;

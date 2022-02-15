@@ -2,7 +2,7 @@ extends layouts/base.pug
 block base
     section 
         div(class="container")
-            div(class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-5 g-3")
+            div(class="row")
                 each product in productos
                     div(class="col d-flex justify-content-center")
                         div(class="card ")
@@ -11,5 +11,5 @@ block base
                                 h4(class="card-title")= product.title 
                                 h5(class="card-text")= product.price 
                 else 
-                    div(class="container my=5")
-                        h4 No se encontraron productos disponibles
+                    div(class="col-12 my-5 text-center")
+                        h4(class="title") No se encontraron productos disponibles
